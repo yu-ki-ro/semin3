@@ -21,3 +21,22 @@ This command updates the index using the current content found in the working tr
 
     git add<name>
 
+## Record changes to the repository
+
+Create a new commit containing the current contents of the index and the given log message describing the changes.
+
+    git commit
+$$OPTIONS$$
+
+-m 
+
+--message
+
+    Use the given <msg> as the commit message. If multiple -m options are given, their values are concatenated as separate paragraphs.
+
+-a
+
+--all
+
+    Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
+
