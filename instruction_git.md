@@ -40,3 +40,13 @@ $$OPTIONS$$
 
     Tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
 
+## Show changes between commits, commit and working tree, etc
+
+Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
+    
+    git diff
+
+This form is to compare the given two paths on the filesystem.
+
+    git diff <hash1> <hash2>
+
