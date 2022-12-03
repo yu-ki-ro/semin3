@@ -50,3 +50,9 @@ This form is to compare the given two paths on the filesystem.
 
     git diff <hash1> <hash2>
 
+## Switch branches or restore working tree files
+
+Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git checkout will also update HEAD to set the specified branch as the current branch.
+    
+    git checkout <hash>
+
