@@ -99,3 +99,25 @@ $$OPTIONS$$
 
     create a new branch with a name <name>
 
+## git checkout <branch_name>
+
+    To prepare for working on <branch>, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the <branch>.
+
+### git log --graph12
+    
+    The --graph flag enables you to view your git log as a graph. To make things things interesting, you can combine this command with --oneline option you learned from above.
+
+### git log --all --oneline --graph32
+
+    The ---all --oneline --graph flag causes git log to display
+    
+    all commits
+    one commit per line
+    the first seven characters of the SHA
+    the commit message
+    view graphs
+
+### git merge12
+
+    The git merge command merges the individual development directions created with the git branch command into a single branch.
+    
