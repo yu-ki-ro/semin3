@@ -112,3 +112,8 @@ $$OPTIONS$$
     the first seven characters of the SHA
     the commit message
     view graphs
+
+### git merge
+
+    The git merge command merges the individual development directions created with the git branch command into a single branch.
+    
