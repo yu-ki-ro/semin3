@@ -122,4 +122,4 @@ $$OPTIONS$$
     The git merge command merges the individual development directions created with the git branch command into a single branch.
     
 
-## Удаленныйе репозитории
+## Удаленные репозитории
