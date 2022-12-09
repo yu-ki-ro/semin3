@@ -94,3 +94,9 @@ $$OPTIONS$$
 ### git branch
 
     The git branch command is the main tool for working with branching. You can use it to add new branches, list and rename existing ones, and delete them.
+
+### git checkout <branch_name>
+
+    To prepare for working on <branch>, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the <branch>.
+
+    
