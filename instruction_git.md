@@ -71,6 +71,3 @@ $$OPTIONS$$
     It shows all commits in the history of branches, tags and other refs, but it does not show commits that are not reachable from any ref. A typical example of a commit that is not reachable from any ref is when you've just run git commit --amend: the previous commit still exists locally, but it's no longer reachable and won't be shown in git log --all. But git reflog will confirm that it does indeed still exist.
 
 ![Git image](fengmian.jpg)
-
-
-
