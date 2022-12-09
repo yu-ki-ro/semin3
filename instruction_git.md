@@ -102,3 +102,13 @@ $$OPTIONS$$
 ### git log --graph
     
     The --graph flag enables you to view your git log as a graph. To make things things interesting, you can combine this command with --oneline option you learned from above.
+
+### git log --all --oneline --graph
+
+    The ---all --oneline --graph flag causes git log to display
+    
+    all commits
+    one commit per line
+    the first seven characters of the SHA
+    the commit message
+    view graphs
