@@ -88,3 +88,9 @@ $$OPTIONS$$
 ### Переключение между ветками
 
  чтобы переключиться на новую ветку
+
+## Description of commands
+
+### git branch
+
+    The git branch command is the main tool for working with branching. You can use it to add new branches, list and rename existing ones, and delete them.
