@@ -91,10 +91,11 @@ $$OPTIONS$$
 
 ## Description of commands
 
-### git branch
+### git branch  daw
 
     The git branch command is the main tool for working with branching. You can use it to add new branches, list and rename existing ones, and delete them.
 
+<<<<<<< HEAD
 ### git branch<name>
 
     create a new branch with a name <name>
@@ -102,16 +103,21 @@ $$OPTIONS$$
 ### git branch -d <name>
 
     remove branch with a name <name>
+=======
+### git branch -d <name> dwad
 
-### git checkout <branch_name>
+    remove branch with a <name>
+>>>>>>> Branch_log
+
+### git checkout <branch_name> 1w2
 
     To prepare for working on <branch>, switch to it by updating the index and the files in the working tree, and by pointing HEAD at the branch. Local modifications to the files in the working tree are kept, so that they can be committed to the <branch>.
 
-### git log --graph
+### git log --graph12
     
     The --graph flag enables you to view your git log as a graph. To make things things interesting, you can combine this command with --oneline option you learned from above.
 
-### git log --all --oneline --graph
+### git log --all --oneline --graph32
 
     The ---all --oneline --graph flag causes git log to display
     
@@ -121,7 +127,7 @@ $$OPTIONS$$
     the commit message
     view graphs
 
-### git merge
+### git merge12
 
     The git merge command merges the individual development directions created with the git branch command into a single branch.
     
